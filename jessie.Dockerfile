@@ -15,7 +15,7 @@ RUN export NVM_DIR="$HOME/.nvm" && \
 
 RUN export NVM_DIR="$HOME/.nvm" && \
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && \
-    npm install prisma@dev @prisma/client@dev
+    npm install prisma@4.8.0-integration-debian-is-now-rhel.2 @prisma/client@4.8.0-integration-debian-is-now-rhel.2
 
 RUN export NVM_DIR="$HOME/.nvm" && \
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && \
